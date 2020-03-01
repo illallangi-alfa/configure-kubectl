@@ -1,14 +1,11 @@
 ---
 dependencies:
-  - src: "https://git@github.com/illallangi-alfa/configure-kubernetes-repository.git"
-    scm: git
-    version: master
   - src: "https://git@github.com/illallangi-alfa/configure-bash-completion.git"
     scm: git
     version: master
-  - src: "https://git@github.com/illallangi-alfa/install-kubectl.git"
+  - src: "https://git@github.com/illallangi-alfa/configure-kubernetes-repository.git"
     scm: git
     version: master
-  - src: "https://git@github.com/illallangi-alfa/remove-kubectl.git"
+  - src: "https://git@github.com/illallangi-alfa/install-kubectl.git"
     scm: git
     version: master

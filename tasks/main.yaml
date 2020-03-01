@@ -6,7 +6,5 @@
   with_items:
     - dest: "/etc/profile.d/kubectl-bash-completion.sh"
     - dest: "/etc/profile.d/kubectl-kubeconfig.sh"
-  when:
-    - "kubectl is defined"
   tags:
     - "kubectl"
